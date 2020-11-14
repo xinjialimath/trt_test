@@ -1,0 +1,24 @@
+cmake_minimum_required(VERSION 2.8.3)
+project(TRT-SSD)
+
+INCLUDE_DIRECTORIES(
+"/usr/local/include/opencv4"
+)
+target_include_directories(
+    PUBLIC ${CUDA_INSTALL_DIR)/include}
+)
+
+AUX_SOURCE_DIRECTORY(src DIR_SRCS)
+set(CMAKE_INCLUDE_CURRENT_DIR ON)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/bin)
+set(CMAKE_CXX_FLAGS "-march=native -O3 -Wall")
+set(CUDA_INSTALL_DIR /usr/local/cuda)
+set(SAMPLE_DEP_LIBS
+    $(CUDAET_LIB)
+    $(CIBLAS_LIB)
+    $(CUDNN_LIB)
+    nvinfer
+    $(RT_LIB)
+    )
+
+add_executable(trt-ssd main.cpp trt_ssd.cpp)

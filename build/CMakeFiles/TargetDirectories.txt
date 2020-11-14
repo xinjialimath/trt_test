@@ -1,0 +1,9 @@
+/home/lixj/Downloads/trt_test/build/CMakeFiles/install.dir
+/home/lixj/Downloads/trt_test/build/CMakeFiles/list_install_components.dir
+/home/lixj/Downloads/trt_test/build/CMakeFiles/edit_cache.dir
+/home/lixj/Downloads/trt_test/build/CMakeFiles/rebuild_cache.dir
+/home/lixj/Downloads/trt_test/build/CMakeFiles/trt_ssd.dir
+/home/lixj/Downloads/trt_test/build/CMakeFiles/covert.dir
+/home/lixj/Downloads/trt_test/build/CMakeFiles/install/strip.dir
+/home/lixj/Downloads/trt_test/build/CMakeFiles/install/local.dir
+/home/lixj/Downloads/trt_test/build/CMakeFiles/ssd.dir

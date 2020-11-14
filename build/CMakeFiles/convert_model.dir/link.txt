@@ -1,0 +1,2 @@
+/usr/bin/ar qc libconvert_model.a CMakeFiles/convert_model.dir/src/convert_model.cpp.o
+/usr/bin/ranlib libconvert_model.a

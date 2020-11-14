@@ -1,0 +1,1 @@
+/usr/bin/c++ -march=native -O3 -Wall -rdynamic CMakeFiles/trt-ssd.dir/main.cpp.o CMakeFiles/trt-ssd.dir/trt_ssd.cpp.o CMakeFiles/trt-ssd.dir/convert_model.cpp.o -o ../bin/trt-ssd 

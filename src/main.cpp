@@ -1,9 +1,10 @@
-#include "convert_model.h"
+#include "convert_model.hpp"
 
 int main(){
 
     ConvertModel convertmodel; //实例化
-    convert_model.onInit();
+    convertmodel.onInit();
+    convertmodel.infer();
 
 
 

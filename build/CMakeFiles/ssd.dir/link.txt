@@ -1,0 +1,2 @@
+/usr/bin/ar qc libssd.a CMakeFiles/ssd.dir/lib/src/trt_ssd.cpp.o
+/usr/bin/ranlib libssd.a
